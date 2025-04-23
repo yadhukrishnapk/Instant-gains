@@ -167,6 +167,8 @@ if (typeof userInput === "string") {
 
 ## 5. Never Type
 
+In TypeScript, never is a type that represents values which never occur. It's used primarily in scenarios where a function will never return a value, either because it always throws an error or it runs indefinitely. The never type is assignable to every other type, but no type, except never itself, is assignable to never. 
+
 Represents values that never occur:
 - Functions that always throw errors
 - Functions with infinite loops
